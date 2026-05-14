@@ -34,7 +34,7 @@ pipeline {
     post {
         always {
             // Очистка рабочей директории в конце сборки
-            cleanWs()
+            deleteDir()
             echo "Workspace has been cleaned."
         }
     }
