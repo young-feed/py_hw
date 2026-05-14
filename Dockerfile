@@ -20,4 +20,4 @@ EXPOSE 5000
 
 # 7. Запускаем приложение
 # Флаг -u (unbuffered) нужен, чтобы логи сразу отображались в Jenkins/Docker
-CMD ["python", "-u", "app.py"]
+CMD ["python", "-u", "hw.py"]
